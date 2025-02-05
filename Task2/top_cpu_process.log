@@ -1,0 +1,8 @@
+Process monitoring बुधवार 05 फरवरी 2025 04:51:49 अपराह्न +0545
+    PID    PPID %CPU COMMAND
+   2750    2585  5.6 gnome-shell
+   7670    2585  1.2 tracker-extract
+   4579    3916  0.5 Isolated Web Co
+   3916    2750  0.4 firefox
+   6976    2585  0.3 gnome-terminal-
+-----------------------------------------
