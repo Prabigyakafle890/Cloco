@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <form id="registration-form">
+      
+        <div class="name">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" placeholder="First Name">
+            
+            <label for="mname">Middle Name:</label>
+            <input type="text" id="mname" placeholder="Middle Name">
+            
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" placeholder="Last Name">
+        </div>
+        <div class="error-box">
+            
+            <span id="err-name"></span>
+        </div>
+        
+        <div class="GD">
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+            
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label>
+            
+            <input type="radio" name="gender" id="other" value="Other">
+            <label for="other">Other</label>
+        </div>
+        <div class="error-box">
+         
+            <span id="err-gender"></span>
+        </div>
+
+    
+        <div class="MS">
+            <label for="maritalstatus">Marital Status:</label>
+            <select id="maritalstatus">
+                <option value="">Please Select</option>
+                <option value="Married">Married</option>
+                <option value="Un-married">Un-Married</option>
+            </select>
+        </div>
+        <div class="error-box">
+           
+            <span id="err-MS"></span>
+        </div>
+
+       
+        <div class="RG">
+            <label for="religion">Religion:</label>
+            <select id="religion">
+                <option value="">Please Select</option>
+                <option value="Hinduism">Hinduism</option>
+                <option value="Buddhism">Buddhism</option>
+                <option value="Christianity">Christianity</option>
+            </select>
+        </div>
+        <div class="error-box">
+            
+            <span id="err-religion"></span>
+        </div>
+
+       
+        <div class="DOB">
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date">
+        </div>
+        <div class="error-box">
+            <span id="err-DOB"></span>
+        </div>
+       
+        <div class="Add">
+            <label for="province">Province:</label>
+            <select id="province">
+                <option value="">Please Select</option>
+              
+            </select>
+
+            <label for="district">District:</label>
+            <select id="district">
+                <option value="">Please Select</option>
+            </select>
+
+            <label for="Municipality">Municipality:</label>
+            <select id="Municipality">
+                <option value="">Please Select</option>
+               
+            </select>
+
+            <label for="ward_no">Ward No.:</label>
+            <input type="number" id="ward_no">
+
+            <div id="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+            <div class="error-box">
+               
+                <span id="err-email"></span>
+            </div>
+
+          
+            <div id="Contactnumber">
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="number">
+            </div>
+            <div class="error-box">
+               
+                <span id="err-number"></span>
+            </div>
+
+          
+            <div class="FileUpload">
+                <label for="file" id="file">Upload your Citizenship:</label>
+                <input type="file" id="myFile" name="myFile">
+            </div>
+            <div class="error-box">
+                
+                <span id="err-file"></span>
+            </div>
+            
+
+            
+            <div class="Subjects">
+                <label for="Subjects">Subjects of Interest:</label>
+                <div class="checkbox-group">
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="math" name="math" value="Mathematics">
+                        <label for="math">Mathematics</label>
+                    </div>
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="science" name="science" value="Science">
+                        <label for="science">Science</label>
+                    </div>
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="computer-science" name="computer-science" value="Computer Science">
+                        <label for="computer-science">Computer Science</label>
+                    </div>
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="arts" name="arts" value="Arts">
+                        <label for="arts">Arts</label>
+                    </div>
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="HM" name="HM" value="Hotel Management">
+                        <label for="HM">Hotel Management</label>
+                    </div>
+                    
+                    
+        
+                </div>
+                
+            </div>
+            <div class="error-box">
+              
+                <span id="err-subjects"></span>
+            </div>
+            
+           
+            <div id="submit">
+                <button type="submit" id="submit-button" onclick="ValidateForm(event)">Submit</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

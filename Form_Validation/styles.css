@@ -1,0 +1,172 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.name {
+    display: flex;
+    gap: 10px;
+}
+
+.name input {
+    flex: 1;
+}
+
+
+.Add {
+    margin-top: 15px;
+}
+
+.Add label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.Add select, .Add input {
+    margin-bottom: 10px;
+}
+
+
+.GD, .MS, .RG, .DOB {
+    margin-top: 15px;
+}
+
+
+.GD {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+}
+
+.GD input[type="radio"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #007bffb6;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.GD input[type="radio"]:checked {
+    background-color: #007bff;
+    border: 4px solid white;
+    box-shadow: 0 0 0 2px #007bff;
+}
+
+.GD label {
+    cursor: pointer;
+    font-weight: normal;
+}
+
+
+
+
+
+
+.output {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.error-box{
+    color: red;
+    width:50%;
+    margin:20px;
+   
+}
+
+
+.FileUpload input[type="file"] {
+    margin-top: 10px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: rgba(0, 92, 128, 0.813);
+    cursor:pointer;
+    display:flex;
+    justify-self: center;
+}
+
+.Subjects {
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.Subjects label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.Subjects input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #007bff; 
+}
+
+.Subjects label {
+    font-size: 16px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+
+.Subjects .checkbox-row {
+    margin-bottom: 10px;
+}
+
+
+.Subjects input[type="checkbox"], .Subjects label {
+    vertical-align: middle;
+}
+
+
+.Subjects .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+
+
